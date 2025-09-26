@@ -7,7 +7,7 @@ import Work from './components/Work'
 import Footer from './components/Footer'
 const App = () => {
   return (
-    <div className='bg-[#1C2226] text-white'>
+    <div className='bg-[#1C2226] text-white '>
    <div className='w-11/12 mx-auto'>
     <Navbar/>
     <Landing/>

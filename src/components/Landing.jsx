@@ -11,8 +11,8 @@ const Landing = () => {
     const socialIcons = [ <IoLogoLinkedin/>,<FaFacebook/>,<FaInstagram/>,<BsTwitterX/>,]
     return (
         <>
-            <section className='landing-page w-full h-[95hv] mt-30'>
-                <div className='flex justify-between items-center '>
+            <section className='landing-page w-full h-screen '>
+                <div className='flex justify-between items-center pt-30'>
                     {/* left side */}
                     <div className=''>
                         <div className='mb-15'>
@@ -31,7 +31,7 @@ const Landing = () => {
                     </div>
                     {/* right side */}
                     <div className='relative'>
-                        <div className='absolute z-50 bottom-25'>
+                        <div className='absolute z-20 bottom-25'>
                         <img src={Banner} alt="banner" />
 
                         </div>

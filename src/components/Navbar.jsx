@@ -4,9 +4,10 @@ const Navbar = () => {
     const menuItems =["home","about","skills","education","contact"];
   return (
     <>
-    <header className=''>
+   <div >
+     <header className=' fixed top-0 w-full bg-[#1C2226] z-40 left-0' >
     <nav className=' text-white '>
-      <div className='flex justify-between items-center p-3'>
+      <div className='flex justify-between items-center w-11/12 mx-auto p-3'>
           <div>
             <h1 className='tracking-[18px] text-4xl font-semibold'>FA</h1>
         </div>
@@ -18,6 +19,7 @@ const Navbar = () => {
       </div>
     </nav>
     </header>
+   </div>
       
     </>
   )
